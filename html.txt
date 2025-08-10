@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Christian Rick P. Pahitti</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Background Style */
+        .background {
+            background-image: url('nebula002.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Card Container */
+        .card {
+            background: rgba(0, 0, 0, 0.75);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Profile Picture */
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        /* Title */
+        .title {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+        }
+
+        /* Subtitle */
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: #d3d3d3;
+        }
+
+        /* Content */
+        .content {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Back Button */
+        .back-button {
+            text-decoration: none;
+            color: white;
+            background: #0078FF;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 120, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: #005FCC;
+            box-shadow: 0 6px 15px rgba(0, 120, 255, 0.5);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .card {
+                width: 95%;
+                padding: 15px;
+            }
+
+            .title {
+                font-size: 1.8rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="card">
+            <img src="christian.jpg" alt="Christian Rick P. Pahitti" class="profile-picture">
+            <h1 class="title">Christian Rick P. Pahitti</h1>
+            <p class="subtitle">Criminology Student & Sports Enthusiast</p>
+            <p class="content">
+                Hi! I'm Christian Rick P. Pahitti, a criminology student driven by a passion for solving mysteries 
+                and understanding the science behind crime. I recently completed my first year of a Master's degree 
+                in Criminology at the University of the Cordilleras and will begin my second year this August, focusing 
+                on trajectory reconstruction. In my free time, I enjoy playing volleyball, swimming, and immersing myself 
+                in online games.
+            </p>
+            <a href="index.html" class="back-button">Back to Homepage</a>
+        </div>
+    </div>
+</body>
+</html>Explanation of Design:
+
+Nebula Background:
+
+The background image nebula002.jpg is stretched to cover the entire screen for a cosmic and modern look.
+
+
+
+Profile Picture:
+
+Your photo christian.jpg is displayed as a circular image at the top of the card for a clean and professional appearance.
+
+
+
+Modern Card Design:
+
+The content is placed inside a semi-transparent dark card with rounded edges and a shadow effect to give it a contemporary finish.
+
+
+
+Responsive Design:
+
+The design adjusts gracefully to different screen sizes for optimal viewing on both mobile and desktop devices.
+
+
+
+Back Button:
+
+A stylish button links back to index.html (homepage). With hover effects, it enhances the interactivity of the page.
+
+
+Required Files:
+nebula002.jpg: The stretched background nebula image.
+christian.jpg: Your profile picture.
+index.html: The homepage file for the back button.
